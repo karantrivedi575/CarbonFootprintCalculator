@@ -1,7 +1,5 @@
 # Portfolio Carbon Footprint Calculator
 
-**[Live App Demo Link - You will add this later]**
-
 ## 🚀 Project Overview
 
 This project is an interactive web application that calculates the carbon footprint of an investment portfolio. It addresses the real-world challenge of incomplete ESG data by using a machine learning model to estimate carbon emissions for companies that do not report them.
@@ -36,3 +34,15 @@ This tool allows an investor to upload their portfolio and receive an immediate,
 2.  Navigate to the project directory: `cd CarbonProject`
 3.  Install the required libraries: `pip install -r requirements.txt`
 4.  Run the Streamlit app: `streamlit run app.py`
+
+## 📄 Sample Portfolio Format
+
+Your CSV file should include the following columns:
+
+| Company | Ticker | Investment (USD) |
+|--------|--------|-------------------|
+| Apple | AAPL | 5000 |
+| Tesla | TSLA | 3000 |
+| Amazon | AMZN | 2000 |
+
+You can download a sample file here: (Add a link when ready)
